@@ -36,7 +36,7 @@ jobs:
       run: |
         zip -r DeviceTree.zip ./dt
     - name: Upload to Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/actioaction_build_twrp_device_tree@v1
       with:
         files: |
           ./DeviceTree.zip
